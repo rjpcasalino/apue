@@ -18,6 +18,6 @@
 
 #define SA struct sockaddr *
 
-void err_msg(const char *, ...);
-
+void err_sys(const char *, ...);
+void err_quit(const char *, ...);
 
